@@ -119,9 +119,9 @@ def animate_rotation_all(grados=90):
         drawBox(p1_rot,p2_rot,p3_rot,p4_rot,p5_rot,p6_rot,p7_rot,p8_rot,color='red')
         n += 1
         plt.draw()
-        plt.pause(0.01)
+        plt.pause(0.05)
 
 # Ejecuta animación
-animate_rotation_all(180)
+animate_rotation_all(90)
 
 plt.show()
