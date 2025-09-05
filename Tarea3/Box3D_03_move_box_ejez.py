@@ -96,7 +96,7 @@ p7_init = [7,2,3]
 p8_init = [0,2,3]
 
 # Animación del movimiento de la caja
-def animate_move_box(delta_x=0, delta_y=0, delta_z=10, pasos=50):
+def animate_move_box(delta_x=10, delta_y=0, delta_z=5, pasos=50):
     n = 0
     while n <= pasos:
         ax.cla()
@@ -124,8 +124,8 @@ def animate_move_box(delta_x=0, delta_y=0, delta_z=10, pasos=50):
 
         n += 1
         plt.draw()
-        plt.pause(0.05)
+        plt.pause(0.01)
 
 # Ejecutar animación
-animate_move_box(delta_x=0, delta_y=0, delta_z=10, pasos=50)
+animate_move_box(delta_x=0, delta_y=0, delta_z=5, pasos=50)
 plt.show()

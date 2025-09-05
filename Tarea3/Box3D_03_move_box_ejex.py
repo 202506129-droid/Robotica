@@ -124,7 +124,7 @@ def animate_move_box(delta_x=10, delta_y=0, delta_z=0, pasos=50):
 
         n += 1
         plt.draw()
-        plt.pause(0.05)
+        plt.pause(0.01)
 
 # Ejecutar animación
 animate_move_box(delta_x=10, delta_y=0, delta_z=0, pasos=50)
